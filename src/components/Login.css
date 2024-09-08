@@ -1,0 +1,21 @@
+.email-with-image {
+  background: url("../assets/images/icon-email.svg") no-repeat left center;
+  background-size: 20px 20px; /* Adjust image size */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-position-x: 10px;
+}
+.pw-with-image {
+  background: url("../assets/images/icon-password.svg") no-repeat left center;
+  background-size: 20px 20px; /* Adjust image size */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-position-x: 10px;
+}
+.link-with-image {
+  background: url("../assets/images/icon-link.svg") no-repeat left center;
+  background-size: 20px 20px; /* Adjust image size */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-position-x: 10px;
+}
