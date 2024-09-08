@@ -1,17 +1,17 @@
 import { LogoLarge } from "../assets/images";
 import "./Login.css";
-import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "../slices/store";
-import { setPageSignUp } from "../slices/productSlice";
+// import { useSelector, useDispatch } from "react-redux";
+// import { RootState } from "../slices/store";
+// import { setPageSignUp } from "../slices/productSlice";
 import { NavLink } from "react-router-dom";
 
 const Login = () => {
-  const dispatch = useDispatch();
-  const products = useSelector((state: RootState) => state.products.value);
-  const setPageToSignUp = () => {
-    dispatch(setPageSignUp());
-    console.log(products.setPageSignUp);
-  };
+  // const dispatch = useDispatch();
+  // const products = useSelector((state: RootState) => state.products.value);
+  // const setPageToSignUp = () => {
+  //   dispatch(setPageSignUp());
+  //   console.log(products.setPageSignUp);
+  // };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white-off">

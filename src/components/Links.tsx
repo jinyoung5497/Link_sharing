@@ -1,8 +1,8 @@
 import {
   dragAndDrop,
   dropDown,
-  link,
-  empty,
+  // link,
+  // empty,
   github,
   twitter,
   linkedIn,
